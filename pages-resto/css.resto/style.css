@@ -1,0 +1,185 @@
+/*General*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-top: 20px;
+    font-family: "Shrikhand","cursive";
+    text-align: center;
+}
+.header-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 70px;
+}
+.logo{
+    width: 200px;
+}
+.header-img i{
+    padding-right: 30px;
+}
+.resto{
+    box-shadow: 3px 3px 12px #808080;
+    cursor: pointer;
+}
+.resto img{
+    display: block;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.resto-menu{
+    background: #f3f3f3;
+    border-radius: 30px 30px 0 0;
+    margin-top: -30px;
+    font-family: "Roboto",sans-serif;
+}
+.resto-menu h1{
+    font-family: "Shrikhand",sans-serif;
+    position: relative;
+    padding: 24px 15px;
+    border-radius: 30px 30px 0 0;
+    background-color:#f3f3f3;
+}
+main i{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+main h1 .fas{
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: all 200ms ease-in-out;
+    background-image: linear-gradient( #9356DC, #FF79DA );
+    opacity: 0.1;
+    cursor: pointer;
+    
+}
+main h1:hover .fas{
+    transform: translateY(-50%), scale(1.2);
+    opacity: 1;
+}
+.commande{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.consommation .item{
+    border: solid 1px black;
+    background-color: #ffffff;
+    border-radius: 15px; 
+    margin: 10px;
+    display: flex;
+    padding-left: 10px;
+    line-height: 20px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+.consommation .item .jus{
+    padding-top: 10px;
+}
+.consommation .prix{
+    margin-left: auto;
+    padding: 30px
+}
+.consommation .item p{
+    font-size: 13px;
+}
+.consommation h2,h3,h4{
+    border-bottom: solid #99E2D0;
+    width: 50px;
+    margin-left: 10px; 
+    font-weight: 200;
+    font-size: 18px;
+    margin-top: 30px
+}
+.consommation h{
+    font-weight: 900;
+    font-size: 15px;
+}
+.consommation .item .button{
+    width: 50px;
+    background-color: #99E2D0;
+    margin-right: -50px;
+    border-radius: 0 15px 15px 0;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 6px #808080;
+}
+.item:hover .button{
+    margin-right: 0;
+}
+.button .fa-solid.fa-check{
+    display:contents;
+    text-align: center;
+    line-height: 25px;
+}
+.fa-check::before {
+    background-color: #ffffff;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    color: #99E2D0;
+}
+.action button{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #ffffff;
+    height: 50px;
+    width: 50%;
+    border: solid 1px;
+    background-image:  linear-gradient(#9356DC,  #FF79DA);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 200ms;
+}
+.action button:hover{
+    transform: scale(1.02);
+    opacity: 0,9;
+}
+.action {
+    text-align: center;
+}
+.assistance{
+    padding-top: 20px;
+    background-color: #696969;
+    height: 100%;
+    line-height: 25px;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 4px 4px 12px #000000;
+}
+.assistance h{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-family: "Shrikhand", sans-serif;
+    font-size: 25px;
+}
+.assistance p{
+    color: #ffffff;
+    font-size: 15px;
+}
+.assistance a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.assistance .fa-utensils{
+    color:#ffffff;
+    margin-right: 10px;
+}
+.assistance .fa-handshake-angle{
+    color: #ffffff;
+    margin-right: 10px;
+}
+.divers{
+    padding-left: 10px;
+}
