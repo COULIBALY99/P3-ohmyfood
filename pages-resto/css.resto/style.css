@@ -81,22 +81,29 @@ main h1:hover .fas{
     border: none;
     cursor: pointer;
     overflow: hidden;
+    box-shadow: 3px 3px 6px #808080;
 }
 .consommation .item .jus{
     padding-top: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .consommation .prix{
     margin-left: auto;
-    padding: 30px
+    padding: 30px;
+    font-weight: 900;
 }
 .consommation .item p{
     font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .consommation h2,h3,h4{
     border-bottom: solid #99E2D0;
     width: 50px;
     margin-left: 10px; 
-    font-weight: 200;
+    font-weight: 400;
     font-size: 18px;
     margin-top: 30px
 }
@@ -112,7 +119,7 @@ main h1:hover .fas{
     display: flex;
     place-items: center;
     justify-content: center;
-    box-shadow: 3px 3px 6px #808080;
+    flex-shrink: 0;
 }
 .item:hover .button{
     margin-right: 0;
