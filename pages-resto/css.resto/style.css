@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+}
 header{
     margin-top: 20px;
     font-family: "Shrikhand","cursive";
@@ -20,6 +23,7 @@ header{
 }
 .header-img i{
     padding-right: 30px;
+    font-size: 20px;
 }
 .resto{
     box-shadow: 3px 3px 12px #808080;
