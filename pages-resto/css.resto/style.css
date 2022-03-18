@@ -183,7 +183,7 @@ main h1:hover .fas{
 }
 .assistance{
     padding-top: 20px;
-    background-color: #696969;
+    background-color: #353535;
     height: 100%;
     line-height: 25px;
     font-family: "Roboto", sans-serif;
@@ -194,11 +194,12 @@ main h1:hover .fas{
     margin-bottom: 15px;
     color: #ffffff;
     font-family: "Shrikhand", sans-serif;
-    font-size: 25px;
+    font-size: 30px;
 }
 .assistance p{
     color: #ffffff;
-    font-size: 15px;
+    font-size: 18px;
+    line-height: 30px;
 }
 .assistance a{
     color: #ffffff;
@@ -213,5 +214,8 @@ main h1:hover .fas{
     margin-right: 10px;
 }
 .divers{
-    padding-left: 10px;
+    padding-left: 20px;
+}
+.resto-footer {
+    margin-top: 20px;
 }
