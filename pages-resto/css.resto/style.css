@@ -31,7 +31,7 @@ header{
 }
 .resto img{
     display: block;
-    height: 200px;
+    height: 300px;
     width: 100%;
     object-fit: cover;
 }
@@ -73,6 +73,16 @@ main h1:hover .fas{
     padding-right: 10px;
     font-family: 'Roboto', sans-serif;
 }
+@keyframes apparaitre{
+    0%{
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 .consommation .item{
     border: solid 1px black;
     background-color: #ffffff;
@@ -86,6 +96,7 @@ main h1:hover .fas{
     cursor: pointer;
     overflow: hidden;
     box-shadow: 3px 3px 6px #808080;
+    animation: apparaitre 3s;
 }
 .consommation .item .jus{
     padding-top: 10px;
@@ -116,9 +127,9 @@ main h1:hover .fas{
     font-size: 15px;
 }
 .consommation .item .button{
-    width: 50px;
+    width: 60px;
     background-color: #99E2D0;
-    margin-right: -50px;
+    margin-right: -60px;
     border-radius: 0 15px 15px 0;
     display: flex;
     place-items: center;
@@ -133,12 +144,22 @@ main h1:hover .fas{
     text-align: center;
     line-height: 25px;
 }
+@keyframes animquarter{
+    0%{
+        transform: rotate(-270deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
 .fa-check::before {
     background-color: #ffffff;
     width: 25px;
     height: 25px;
     border-radius: 30px;
     color: #99E2D0;
+    animation-name: animquarter;
+    animation: animquarter 0,5s ease-in-out;
 }
 .action button{
     margin-top: 20px;
