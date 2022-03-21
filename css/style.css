@@ -23,7 +23,7 @@ main header{
     height: 100%;
     z-index: 999;
     top:0;
-    animation: disparaitre 8s;
+    animation: disparaitre 6s;
     animation-fill-mode: forwards;
     transform-origin: top;
     opacity: 0.9;
@@ -36,7 +36,7 @@ main header{
     width: 50px;
     border-radius: 50%;
     border:solid 5px #99E2D0;
-    animation: spin 4s infinite  linear;
+    animation: spin 3s infinite  linear;
 }
 @keyframes disparaitre{
     0%{
