@@ -241,7 +241,7 @@ main h1:hover .fas{
     margin-top: 20px;
 }
 /*desktop first*/
-@media (max-width: 1000px){
+@media (max-width: 1250px){
     .commande {
         display: flex;
     }
