@@ -178,7 +178,7 @@ main h1:hover .fas{
     color: #99E2D0;
     transform: rotate(-270deg);
 }
-.button:hover .fa-check::before{
+.consommation .item:hover .fa-check::before{
     transform: rotate(0);
     animation: quarterspin 0.5s ease-in-out;
 }

@@ -138,6 +138,7 @@ main i{
     counter-increment: action; 
     content: counter(action);
     background-color: #9356DC;
+    color: #ffffff;
     width: 30px;
     height: 30px;
     border-radius: 15px;
@@ -152,6 +153,9 @@ main i{
     background-color:#DEEBFF;
     width: 280px;
     transform: scale(1.3);
+}
+li.gouter {
+    background-color: #DEEBFF;
 }
 li.gouter i{
     color: #9356DC;
